@@ -11,5 +11,12 @@ Member in charge of Task 3 will update `readme.md` file and a piece of C code wi
 
 ### Contributors
 
+{% for student in site.stu %}
+- **{{ student.name }}**
+  - Image: ![{{ student.name }}]({{ student.image }})
+  - Username: {{ student.user }}
+  - Content: {{ student.content }}
+{% endfor %}
+
 
  
