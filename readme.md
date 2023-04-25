@@ -9,7 +9,15 @@ Member in charge of Task 3 will update `readme.md` file and a piece of C code wi
 
 ### Code
 
-{% include_relative ./code.c %}
+{% include_relative code.c %}
+```C
+#include <stdio.h>
+
+int main(void)
+{
+  printf("Hello world!");
+}
+```
 ![Status badge](https://github.com/csci3251-2023/project-team-j/actions/workflows/c-cpp.yml/badge.svg)
 
 ### Contributors
