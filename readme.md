@@ -8,8 +8,11 @@ Team member responsible for Task 1 will initialize `Issues` tabe with items in `
 Member in charge of Task 3 will update `readme.md` file and a piece of C code will be added by other member for Task 4. Task 5 and Task 6 includes getting a status badge for this repo and updating **Contributors** section in `readme.md`. The final task comes with promotion of our repo by adding a link in public repo `csci3251-2023.github.io`.
 
 ### Code
-
+```c
+{% include_relative code.c %}
+```
+![workflow](https://github.com/csci3251-2023/project-team-j/actions/workflows/c-with-make/badge.svg)
 ### Contributors
-
+LUAN CHANGWEN 1155173774
 
  
